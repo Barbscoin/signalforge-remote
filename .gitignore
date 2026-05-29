@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual env
+remote_env/
+venv/
+
+# VSCode
+.vscode/
+
+# Exports
+exports/
+
+# Secrets
+.env
+credentials.json
+encrypted_credentials.json

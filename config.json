@@ -1,0 +1,19 @@
+{
+  "servers": [
+    {
+      "name": "prod-1",
+      "host": "192.168.1.10",
+      "user": "ubuntu"
+    }
+  ],
+  "rss_feeds": [
+    "https://news.google.com/rss/search?q=small+business+website+hacked",
+    "https://news.google.com/rss/search?q=business+email+compromised",
+    "https://news.google.com/rss/search?q=restaurant+website+down",
+    "https://news.google.com/rss/search?q=wordpress+hacked+small+business",
+    "https://news.google.com/rss/search?q=dns+issue+business"
+  ],
+  "score_threshold": 40,
+  "refresh_interval": 3600,
+  "db_path": "signalforge.db"
+}
