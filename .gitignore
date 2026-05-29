@@ -1,21 +1,32 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 *.log
+.pytest_cache/
 
-# Virtual env
-remote_env/
+# Virtual environments
 venv/
+remote_env/
 
-# VSCode
-.vscode/
-
-# Exports
+# Local data
 exports/
+logs/
+data/
+
+# Databases
+*.db
 
 # Secrets
-.env
+.store_key
 credentials.json
-encrypted_credentials.json
+config.local.json
+.env
+*.pem
+*.key
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.dbrypted_credentials.json
